@@ -13,11 +13,11 @@ default port : `8181`
 
 `All the students are insert while start up api`
 
-###### To take sorted list as a text file (Save in <<>Project Folder>/Result.txt) please do this restApi calls
+###### To take sorted list as a text file (Save in <<>Project Folder>/Result.txt) please make this restful calls
 
-`For Ascending ordered list :` http://localhost:8181/students?sort=ASC
+`Student list ordered in ascending order by createdDate :` http://localhost:8181/students?sort=ASC
 
-`For descending ordered list :` http://localhost:8181/students?sort=DESC
+`Student list ordered in descending order by createdDate :` http://localhost:8181/students?sort=DESC
 
-`list is not orderd :` http://localhost:8181/students?sort=
+`student list didn't order :` http://localhost:8181/students?sort=
 
